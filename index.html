@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang = "ru">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title> Моя страница - визитка</title>
+        <link rel = "stylesheet" href = "styles.css" />
+        <!-- Подключение Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class = "container">
+                <a class="logo" href="#top">Жабина Анастасия</a>
+
+                <nav class="navigation" aria-label="Основная навигация">
+                    <a href="#about">Обо мне</a>
+                    <a href="#skills">Навыки</a>
+                    <a href="#projects">Проекты</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+            </div>
+        </header>
+
+        <main id="top">
+            <section class="hero">
+                <div class="container hero-content">
+                    <div class ="hero-text">
+                        <p class="eyebrow">Привет! Я</p>
+                        <h1>Анастасия Жабина</h1>
+                        <p class="hero-description">
+                            Начинающий разработчик, студент МИРЭА. Изучаю фронтенд-разработку.
+                        </p>
+                        <a class="button" href="#contacts">Связаться со мной</a>
+                    </div>
+
+                    <img
+                        class = "avatar"
+                        src="images/avatar.jpg"
+                        alt="Фотография Анастасии Жабиной" 
+                    />
+                </div>
+            </section>
+
+            <section class="section" id="about">
+                <div class="container">
+                    <p class="section-label">01</p>
+                    <h2>Обо мне</h2>
+                    <p>
+                        Учусь в университете. Меня всегда привлекало сочетание технологий и визуала, поэтому занимаюсь фронтенд-разработку, ведь можно не просто писать код, а сразу видеть результат своей работы и создавать удобные, красивые интерфейсы. 
+                    </p>
+                </div>
+            </section>
+
+            <section class="section section-accent" id="skills">
+                <div class="container">
+                    <p class ="section-label">02</p>
+                    <h2>Мои навыки и интересы</h2>
+
+                    <ul class="skills-list">
+                        <li>Решение логических задач</li>
+                        <li>Изучение современных веб-технологий</li>
+                        <li>Работа с визуальными редакторами</li>
+                        <li>Командная работа</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="section" id="projects">
+                <div class="container">
+                    <p class="section-label">03</p>
+                    <h2>Мои проекты</h2>
+
+                    <div class="projects">
+                        <article class="project-card">
+                            <h3>Проект №1. Страница-визитка</h3>
+                            <p>
+                                В данном проекте будет создана простая страница-визитка с использование HTML и CSS.
+                            </p>
+                            <a href="#">Подробнее</a>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Проект №2. Генератор случайных предсказаний</h3>
+                            <p>
+                                Суть проекта заключается в создании простой страницы с красивой карточкой, текстом и одной кнопкой. При нажатии на кнопку текст предсказания меняется на новый. 
+                            </p>
+                            <a href="#">Подробнее</a>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Проект №3. Секундомер</h3>
+                            <p>
+                                В будущем хочу сделать проект секундомера, где будет экран с тремя конпками: "Старт", "Стоп" и "Пауза".
+                            </p>
+                            <a href="#">Подробнее</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section contact-section" id = "contacts">
+                <div class="container">
+                    <p class="section-label">04</p>
+                    <h2>Контакты</h2>
+                    <p>
+                        Если вы хотите связаться со мной, используйте один из способов:
+                    </p>
+                    <ul class="contacts-list">
+                        <li>
+                            Email:
+                            <a href="mailto:mindalmiint@gmail.com">mindalmiint@gmail.com</a>
+                        </li>
+                        <li>
+                            GitHub:
+                            <a href="https://github.com/mindalmiint" target="_blank">
+                                Мой профиль
+                            </a>
+                        </li>
+                        <li>
+                            Telegram:
+                            <a href="https://t.me/vdmnm213" target="_blank">
+                                Написать сообщение
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <p>© 2026 Анастасия Жабина. Создано во время практики.</p>
+            </div>
+        </footer>
